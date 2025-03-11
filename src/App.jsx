@@ -3,6 +3,7 @@ import Login from "./Components/Login";
 import Profile from "./Components/Profile";
 import Home from "./Components/Home";
 import NavBar from './Components/NavBar';
+import Connections from './Components/Connections';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {useState, createContext} from "react";
@@ -26,6 +27,7 @@ export default function App() {
           <Route path='/' element={<Login/>}/>
           <Route path="/Home" element={<Home />}/>
           <Route path="/Profile" element={<Profile/>}/>
+          <Route path="/Connections" element={<Connections/>}/>
         </Routes>
       </BrowserRouter>
     </div>

@@ -8,12 +8,13 @@ export default function NavBar() {
 
 
     return (
-        <div className="navLinks grid grid-cols-4 text-xl px-8 py-2 
+        <div className="navLinks grid grid-cols-5 px-8 py-1
     text-left items-center border-2">
             {/* Home, Inventory, and Contact Us Pages */}
             <div className="bcatPicNavBar"><img src="/Logo.png" alt="bcat" /></div>
             <div><a href="/Home"><b>HOME</b></a></div>
             <div><a href="/Profile"><b>PROFILE</b></a></div>
+            <div><a href="/Connections"><b>CONNECTIONS</b></a></div>
             {/* user greeting and logout button */}
             <div className="text-right">
                 {sessionStorage.getItem("logged") == 1 ? (
