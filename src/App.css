@@ -109,19 +109,23 @@ margin-right: auto;
 .profilePage{
   display: grid;
   grid-template-columns: 35% 65%;
-  grid
-  height: 100vh;
+  height: 88.7vh;
   width: auto;
   border-color: #ffd926;
   border-style: double;
-  border-width: 3px;
+  border-width: 1px;
   background-color: #ccc;
 
 }
 
-.userLeftDiv{
-
-
+.userLeftDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f3fb;
+  color: rgb(41, 51, 94);
 }
 
 .userRightDiv{
@@ -129,7 +133,15 @@ margin-right: auto;
   grid-template-rows: 30% 30% 30% 10%;
   background-color: rgb(112, 131, 180);
   
-
+}
+.resumeButton{
+  background-color: #ffd926;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 30%;
+  height: auto;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
 }
 
 .profH1{
@@ -141,6 +153,12 @@ margin-right: auto;
   color: white;
   
 }
+
+.navLinks a:hover{
+  color: #ffd926
+  
+}
+
 .bcatPicNavBar img{
   height: 8vh;
 }
