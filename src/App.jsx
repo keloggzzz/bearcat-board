@@ -1,6 +1,8 @@
 import './App.css'
 import Login from "./Components/Login";
 import Profile from "./Components/Profile";
+import Home from "./Components/Home";
+import NavBar from './Components/NavBar';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {useState, createContext} from "react";
@@ -18,9 +20,11 @@ export default function App() {
   return (
     <DataContext.Provider value={{logStatus:logStatus}}>
       <div>
+        <NavBar/>
        <BrowserRouter>
         <Routes>
-          <Route path="/*" element={<Profile/>}/>
+          <Route path='/' element={<Login/>}/>
+          <Route path="/Home" element={<Home />}/>
           <Route path="/Profile" element={<Profile/>}/>
         </Routes>
       </BrowserRouter>

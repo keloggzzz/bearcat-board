@@ -2,6 +2,7 @@ import {useState, useContext} from "react";
 import { DataContext } from "../App";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope, faLock} from '@fortawesome/free-solid-svg-icons'
+import { useNavigate } from "react-router-dom";
 
 export default function Login(){
 const [email,setEmail]=useState("");
@@ -28,7 +29,6 @@ function check(){
 function logout(){
     sessionStorage.setItem("logged", 0);
     setLogStatus(0);
-    
   }
 
 var login=<div>

@@ -137,3 +137,10 @@ margin-right: auto;
   font-size: 20px;
   color:#ffd926;
 }
+.navLinks a{
+  color: white;
+  
+}
+.bcatPicNavBar img{
+  height: 8vh;
+}
