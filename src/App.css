@@ -1,42 +1,139 @@
+@import "tailwindcss";
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;     /* Remove default margin */
+  padding: 0;    /* Remove default padding */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2{
+  text-align:inherit;
+  font-size: 12px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.loginPage {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  height: 100%;
+  width: auto;
 }
 
-.card {
-  padding: 2em;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-.read-the-docs {
-  color: #888;
+.loginPhotoDiv{
+  margin: auto;
+}
+
+
+.loginDiv{
+background-color: rgba(22, 14, 4, 0.2);
+padding-bottom: 165px;
+padding-top: 25px;
+font-family: 'Times New Roman', Times, serif;
+max-width: 100%;
+max-height: 100%;
+}
+
+.credentialsDiv{
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.loginP{
+  text-align: left;
+}
+
+.loginFieldContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.fieldIcon {
+  position: absolute;
+  left: 10px; /* Adjust as needed */
+  color: gray;
+}
+
+.fields {
+  width: 50%;
+  padding-left: 35px; /* Make space for the icon */
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ccccccd0;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+}
+
+.loginButton{
+  background-color: #ffd926;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 25%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.loginButton:hover{
+  background-color: #d0b023;
+}
+
+.signUpLink{
+  background-color: #cccccc00;
+  border-color: #cccccc00;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  text-decoration: underline;
+}
+
+.signUpLink:hover{
+  color: #ffd926;
+}
+
+.profilePage{
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid
+  height: 100vh;
+  width: auto;
+  border-color: #ffd926;
+  border-style: double;
+  border-width: 3px;
+  background-color: #ccc;
+
+}
+
+.userLeftDiv{
+
+
+}
+
+.userRightDiv{
+  display:grid;
+  grid-template-rows: 30% 30% 30% 10%;
+  background-color: rgb(112, 131, 180);
+  
+
+}
+
+.profH1{
+  text-align: left;
+  font-size: 20px;
+  color:#ffd926;
 }
