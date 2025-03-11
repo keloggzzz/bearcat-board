@@ -1,5 +1,7 @@
 import {useState, useContext} from "react";
 import { DataContext } from "../App";
+import { useNavigate } from "react-router-dom";
+
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope, faLock} from '@fortawesome/free-solid-svg-icons'
 
@@ -29,35 +31,41 @@ const user={
 
   return(
     <div className="profilePage">
-        <div classname="userLeftDiv">
-            {/*Left*/}
-        <img src={user.image}/>
-        <h2>{user.name}</h2>
-        <h2>{user.pronouns}</h2>
-        <h2>{user.city}</h2>
-        <h2>{user.type}</h2>
+          {/*Left*/}
+        <div className="userLeftDiv">
+            <img className="w-60 h-60 rounded-none border-3 border-gray-900" src={user.image}/>
+            <h3 className="text-3xl">{user.name}</h3>
+            <h3 className="text-1xl">{user.pronouns}</h3>
+            <br></br>
+            <h3 className="text-1xl">{user.city}</h3>
+            <br></br>
+            <h3 className="text-1xl">{user.type}</h3>
         </div>
         
         {/*RIGHT*/}
 
         <div className="userRightDiv">
-        <div>
+        <div className="border-b-2 border-yellow-400 pb-2 w-3/4 ml-10">
+        <br></br>
         <h1 className="profH1">About Me</h1>
             <h2>{user.about}</h2>
         </div>
 
-        <div>
+        <div className="border-b-2 border-yellow-400 pb-2 w-3/4 ml-10">
+        <br></br>
         <h1 className="profH1">Education</h1>
             <h2>{}</h2>
         </div>
 
-        <div>
+        <div className="border-b-2 border-yellow-400 pb-2 w-3/4 ml-10">
+        <br></br>
         <h1 className="profH1">Experience</h1>
             <h2></h2>
         </div>
 
         <div>
-        <button>Link to Resume</button>
+        <br></br>
+        <button className="resumeButton">Link to Resume</button>
         </div>
         
         
