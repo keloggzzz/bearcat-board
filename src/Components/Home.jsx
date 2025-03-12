@@ -1,6 +1,8 @@
 import {useState, useContext} from "react";
 import { DataContext } from "../App";
 import Post from "./Post";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faPlus} from "@fortawesome/free-solid-svg-icons";
 import postData from "../Model/posts.json"
 
 
@@ -14,6 +16,11 @@ import postData from "../Model/posts.json"
           <Post key={index} user={post.user} time={post.time} postImg={post.postImg} content={post.content} />
         ))}
       </div>
+    <button className="addButton">
+        <FontAwesomeIcon icon={faPlus} className="text-gray-100 text-5xl"/>
+        <p className="text-xs">Add Post!</p>
+      </button>
     </div>
+   
   );
 }

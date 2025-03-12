@@ -26,11 +26,12 @@ h2{
   grid-template-columns: 65% 35%;
   height: 100%;
   width: auto;
+  overflow: hidden;
 }
 
 img {
   max-width: 100%;
-  height: auto;
+  
 }
 
 .loginPhotoDiv{
@@ -40,11 +41,10 @@ img {
 
 .loginDiv{
 background-color: rgba(22, 14, 4, 0.2);
-padding-bottom: 165px;
-padding-top: 25px;
+padding-bottom: 30vh;
+padding-top: 10vh;
 font-family: 'Times New Roman', Times, serif;
-max-width: 100%;
-max-height: 100%;
+overflow: hidden;
 }
 
 .credentialsDiv{
@@ -108,14 +108,16 @@ margin-right: auto;
 
 .profilePage{
   display: grid;
-  grid-template-columns: 35% 65%;
-  height: 88.7vh;
+  grid-template-columns: 30% 70%;
+  height: 88vh;
   width: auto;
   border-color: #ffd926;
   border-style: double;
   border-width: 1px;
   background-color: #ccc;
-
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .userLeftDiv {
@@ -169,6 +171,18 @@ margin-right: auto;
   align-items: center; 
   text-align: center;
   background: #f8f6f6;
-  height: 88vh;
+  height: 91vh;
 
+}
+
+.addButton{
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  background-color:#ffd926;
+  border-radius: 100%;
+}
+
+.addButton:hover{
+  background-color: #fbe47e;
 }
