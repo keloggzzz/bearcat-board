@@ -76,7 +76,7 @@ var logoutUser=<div>
   return(
     <div className="loginPage">
         <div className="loginPhotoDiv">
-            <img src="images/LoginPhoto.png" alt="login" />
+            <img src="https://i.postimg.cc/3WMZDVqc/Login-Photo.png" alt="login" />
         </div>
         <div>
             <div>{logStatus===0?login:logoutUser}</div>
