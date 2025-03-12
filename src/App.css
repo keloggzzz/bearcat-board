@@ -179,10 +179,10 @@ margin-right: auto;
   position: fixed;
   bottom: 40px;
   right: 20px;
-  background-color:#ffd926;
+  background-color:#3137dc;
   border-radius: 100%;
 }
 
 .addButton:hover{
-  background-color: #fbe47e;
+  background-color: #8ca2eb;
 }
