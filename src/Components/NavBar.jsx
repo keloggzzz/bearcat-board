@@ -23,13 +23,29 @@ export default function NavBar() {
                     <>
                         Hello User!
                         <br></br>
-                        <button
+                        {/* <button
                             className="border-2 rounded-lg text-black bg-white px-5 cursor-pointer hover:bg-gray-200"
                             onClick={logout}
                         >
-                            Logout
+                            Logout */}
 
-                        </button>
+                        {/* </button> */}
+                        <div className="text-right">
+                        <div className="inline-flex items-center border-1 rounded-md px-2">
+                            <div><FontAwesomeIcon icon={faSearch} className="text-gray-500" /></div>
+                            <input
+                                className="w-[15vw] p-2 h-6 outline-none"
+                                type="text"
+                                placeholder="Search..."
+                                value={jobPost}
+                                onKeyUp={(e) => setJobPost(e.target.value)}
+                            />
+                            
+                            <a href="/JobResults">
+
+                            </a>
+                        </div>
+                    </div>
                     </>
                 ) : (
                     <div className="text-right">
