@@ -109,15 +109,14 @@ margin-right: auto;
 .profilePage{
   display: grid;
   grid-template-columns: 30% 70%;
-  height: 88vh;
-  width: auto;
+  width: 80%;
   border-color: #ffd926;
   border-style: double;
   border-width: 1px;
   background-color: #ccc;
   margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 25vh;
+  
 }
 
 .userLeftDiv {
@@ -130,11 +129,10 @@ margin-right: auto;
   color: rgb(41, 51, 94);
 }
 
-.userRightDiv{
-  display:grid;
-  grid-template-rows: 30% 30% 30% 10%;
+.userRightDiv {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(112, 131, 180);
-  
 }
 .resumeButton{
   background-color: #ffd926;
