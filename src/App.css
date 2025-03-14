@@ -27,6 +27,7 @@ h2{
   height: 100%;
   width: auto;
   overflow: hidden;
+  background-color: #00487d;
 }
 
 img {
@@ -149,6 +150,10 @@ margin-right: auto;
   font-size: 20px;
   color:#ffd926;
 }
+
+.navbar{
+  background-color: #00487d;
+}
 .navLinks a{
   color: white;
   
@@ -177,7 +182,7 @@ margin-right: auto;
   position: fixed;
   bottom: 40px;
   right: 20px;
-  background-color:#3137dc;
+  background-color:#00487d;
   border-radius: 100%;
 }
 
