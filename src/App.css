@@ -43,9 +43,10 @@ img {
 .loginDiv{
 background-color: rgba(22, 14, 4, 0.2);
 padding-bottom: 30vh;
-padding-top: 10vh;
+padding-top: 15vh;
 font-family: 'Times New Roman', Times, serif;
 overflow: hidden;
+height: 100vh;
 }
 
 .credentialsDiv{
