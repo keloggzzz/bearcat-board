@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import usersData from "../Model/user.json"; // Import users data
 
-export default function Profile() {
+export default function OtherProfiles() {
     const { username } = useParams(); // Get username from URL
     const user = usersData.find(u => u.username === username); // Find user
 
