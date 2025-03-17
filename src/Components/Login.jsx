@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useState, useContext, Navigate } from "react";
 import { DataContext } from "../App";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
@@ -11,7 +11,7 @@ export default function Login() {
   const { logStatus, setLogStatus } = useContext(DataContext);
   const navigate = useNavigate(); // For page navigation
 
-  function check(email, pwd) {
+  const check = async () => {
     const userInput = user.find(
       (userIn) => userIn.email.trim() === email.trim() && userIn.password.trim() === pwd.trim()
     );
@@ -20,7 +20,7 @@ export default function Login() {
       alert("Login successful!");
       sessionStorage.setItem("logged", 1);
       setLogStatus(1);
-      navigate("/home"); // Redirect to home or dashboard
+      navigate(0);
     } 
     else if (email.trim() === "" || pwd.trim() === "") {
       alert("Please fill out both fields.");
@@ -84,7 +84,7 @@ export default function Login() {
           className="loginButton"
           type="button"
           value="Login"
-          onClick={() => check(email, pwd)}
+          onClick={check}
         />
         <br /><br />
 

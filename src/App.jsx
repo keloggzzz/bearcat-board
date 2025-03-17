@@ -5,7 +5,7 @@ import Home from "./Components/Home";
 import NavBar from './Components/NavBar';
 import Connections from './Components/Connections';
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import {useState, createContext} from "react";
 
 export const DataContext=createContext("");
