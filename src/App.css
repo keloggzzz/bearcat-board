@@ -190,3 +190,31 @@ margin-right: auto;
 .addButton:hover{
   background-color: #8ca2eb;
 }
+
+.addFriend{
+  background-color: #ffd926;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.addFriend:hover{
+  background-color: #ffe677;
+}
+
+.deleteRecc{
+  background-color: #070706;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.deleteRecc:hover{
+  background-color: #363531;
+}

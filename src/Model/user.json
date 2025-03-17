@@ -29,7 +29,7 @@
       "lastName": "Doe",
       "pronouns": "he/him",
       "type": "student",
-      "profilePic": "/images/john_doe.jpg",
+      "profilePic": "https://i.pinimg.com/736x/8b/b7/f0/8bb7f033227532ae88527877f8cf245c.jpg",
       "about": "Aspiring software engineer with a passion for problem-solving and development.",
       "education": {
         "year": 2024,
@@ -50,7 +50,7 @@
       "lastName": "Smith",
       "pronouns": "she/her",
       "type": "alumni",
-      "profilePic": "/images/jane_smith.jpg",
+      "profilePic": "",
       "about": "Experienced marketing manager with a love for digital strategies and branding.",
       "education": {
         "year": 2019,
@@ -71,7 +71,7 @@
       "lastName": "Jones",
       "pronouns": "he/him",
       "type": "employer",
-      "profilePic": "/images/mike_jones.jpg",
+      "profilePic": "https://images.unsplash.com/photo-1628563694622-5a76957fd09c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zdGFncmFtJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
       "about": "CEO of Tech Innovations, looking for talented software engineers to join our growing team.",
       "education": {
         "year": 2015,
@@ -92,7 +92,7 @@
       "lastName": "Clark",
       "pronouns": "she/her",
       "type": "student",
-      "profilePic": "/images/emily_clark.jpg",
+      "profilePic": "https://media.gettyimages.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=gi&k=20&c=LsB3LmCoN69U82LEYU78IC2tNwOMjy7LJlmEj30UOSs=",
       "about": "Interested in web development and UI/UX design. Always learning new skills.",
       "education": {
         "year": 2025,
@@ -113,7 +113,7 @@
       "lastName": "Brown",
       "pronouns": "they/them",
       "type": "alumni",
-      "profilePic": "/images/alex_brown.jpg",
+      "profilePic": "",
       "about": "Digital strategist with a focus on content creation and social media marketing.",
       "education": {
         "year": 2017,
@@ -129,12 +129,12 @@
     {
       "username": "susan_williams",
       "password": "password987",
-      "email": "susan.williams@email.com",
+      "email": "",
       "firstName": "Susan",
       "lastName": "Williams",
       "pronouns": "she/her",
       "type": "student",
-      "profilePic": "/images/susan_williams.jpg",
+      "profilePic": "",
       "about": "Passionate about graphic design and creative arts. Currently learning animation.",
       "education": {
         "year": 2023,
@@ -155,7 +155,7 @@
       "lastName": "Harris",
       "pronouns": "he/him",
       "type": "employer",
-      "profilePic": "/images/daniel_harris.jpg",
+      "profilePic": "",
       "about": "Looking for skilled developers for my tech startup. Let’s build something great together.",
       "education": {
         "year": 2013,
@@ -176,7 +176,7 @@
       "lastName": "Evans",
       "pronouns": "she/her",
       "type": "alumni",
-      "profilePic": "/images/olivia_evans.jpg",
+      "profilePic": "",
       "about": "Experienced graphic designer with a keen eye for detail and a passion for visual storytelling.",
       "education": {
         "year": 2016,
@@ -197,7 +197,7 @@
       "lastName": "Martin",
       "pronouns": "he/him",
       "type": "student",
-      "profilePic": "/images/chris_martin.jpg",
+      "profilePic": "",
       "about": "A budding entrepreneur interested in business management and marketing.",
       "education": {
         "year": 2026,

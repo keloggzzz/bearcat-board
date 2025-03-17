@@ -41,7 +41,7 @@ import postData from "../Model/posts.json"
           <Post key={index} user={post.user} time={post.time} postImg={post.postImg} content={post.content} />
         ))}
       </div>
-    <button className="addButton">
+    <button className="addButton" onClick={alert('Clicked Add Post')}>
         <FontAwesomeIcon icon={faPlus} className="text-gray-100 text-5xl"/>
         <p className="text-xs">Add Post!</p>
       </button>
