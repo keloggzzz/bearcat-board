@@ -79,5 +79,5 @@ export default function Post({ user, time, postImg, content }) {
 
     </div>
   );
-
+//for update can erase later
 }
